@@ -48,7 +48,7 @@ __Notes on measuring__
 
 __Notes on provided files__
 
-- Calitower Z is currently only available in a 120x3 version. So a nominal 120 mm measurement heigt (144 mm print height required) with three distances for outer and inner measurements, respectively.
+- Calitower Z is currently only available in a 120x3 version. So a nominal 120 mm measurement height (144 mm print height required) with three distances for outer and inner measurements, respectively.
 - Currently, only the "Parametric Skew Calibration.xlsx" has been modified to include dedicated input sections and output values for the z-axis. However, the browser-based version can be used just as well. Simply enter the z-measurements into either the x or y value sections and leave the rest empty. The results shown for the corresponding axis now refer to the z-axis.
 - All the .step and .stl files provided in this repository can also be found on [printables.com](https://www.printables.com/model/1600089-calitower-z-an-addition-to-the-open-source-calista). Additionally, .3mf project as well as .bgcode presliced print files are available there. 
 
