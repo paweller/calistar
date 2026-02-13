@@ -28,25 +28,25 @@ Note about Enders and other budget printers: the movement on the x-axis is non-l
 
 # Calitower Z - an addition to Calistar
 
-![Calitower Z example](img/calitower_z/calitower_z_120x3_example.jpg?raw=true "calitower z 120x3 example")
+<img src="img/calitower_z/calitower_z_120x3_example.jpg?raw=true" alt="Calitower Z example" height="500">
 
 Just as Calistar, Calitower Z is a free, open source, and parametric tool used to adjust a 3D printer's dimensional accuracy. While Calistar calibrates the x- and y-axis, Calitower Z sets out to do exactly that, just for the 3D printer's z-axis. Calitower Z was inspired by Calistar and is designed based on Calistar's core principles. Simply transfer the knowledge gained about Calistar to Calitower Z and you will be good to go to get your 3D printer's z-axis dialed in. Note that Calitower Z does not support a z-axis scew calibration.
 
-Notes on Printing:
+__Notes on Printing__
 
 - Use a layer height of 0.2 mm (or 0.1 mm). Otherwise, the nominal distance values between two measurement points are not guaranteed to be 120 mm, 80 mm, and 40 mm!
 - Use the correct Calitowre Z version for the type of printed filament.
     - Rather stiff polymers (PLA, PETG, ABS, ASA, PC, Nylon, etc.) can easily be printed without any stiffening support structure. The correct files are the "calitower_z_stiff_<...>.<file_type>".
     - Flexible polymers (TPU, PEBA, etc.) require stiffening support structure. The correct files are the "calitower_z_flex_<...>.<file_type>".
 
-Notes on measuring:
+__Notes on measuring__
 
 - While the outer measurements are likely to represent the 3D printer's calibration quite accurately, the inner measurements might not. Even though bridging sections are kept at a minimum distance, their measurements are likely not 100 % accurate. The reasons are two-fold:
     - The droop will be ever so slight.
     - The extruded filament does not get squished against an underlying layer, but can radially extend almost equally in all directions.
     - Nevertheless, when handling these measurements diligently and taking one or two more samples per pair of measurment points, the results should be quite precise. That is at least what empirically showed.
 
-Notes on provided files:
+__Notes on provided files__
 
 - Calitower Z is currently only available in a 120x3 version. So a nominal 120 mm measurement heigt (144 mm print height required) with three distances for outer and inner measurements, respectively.
 - Currently, only the "Parametric Skew Calibration.xlsx" has been modified to include dedicated input sections and output values for the z-axis. However, the browser-based version can be used just as well. Simply enter the z-measurements into either the x or y value sections and leave the rest empty. The results shown for the corresponding axis now refer to the z-axis.
